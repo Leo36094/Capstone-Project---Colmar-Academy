@@ -89,6 +89,11 @@ header .nav-bar{
   font-size: 1rem;
 }
 
+header a{
+  font-family: "Sintony", sans-serif;
+  color: grey;
+}
+
 header ul{
   display: flex;
   align-items: center;
@@ -371,10 +376,10 @@ header ul{
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  max-width: 30%;
+  width: 30%;
   background-color: white;
   padding-bottom: 1.5rem;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .course img{
@@ -401,7 +406,7 @@ header ul{
 
 .course:hover{
   transition: 0.5s linear;
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .course-content a:hover{
